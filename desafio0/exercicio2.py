@@ -5,7 +5,7 @@ num= int(input("Digite um numero, 0 para cancelar:\n"))
 while num!=0:
     array.append(num)
     num= int(input("Digite um numero, 0 para cancelar:\n"))
-array.sort()
+array.sort()#para organizar a lista e ser mais rapido de passar o algoritmo
 for i in range(len(array) - 1):
     diferenca = abs(array[i] - array[i + 1])
     if diferenca < menorDiferenca:  #se a diferença for menor que a existente ela sobrepõe
